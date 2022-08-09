@@ -1,17 +1,20 @@
 #logito {
     margin: 50 auto;
     display: block;
-    position: relative;
-    left: 40px;
-    bottom: 510px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
 }
 
 #caritafacherita{
     margin: 50 auto;
     display: block;
-    position: relative;
-    left: 200px;
-    bottom: 600px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 108px;
+    margin-top: 7px;
 }
 
 p {
