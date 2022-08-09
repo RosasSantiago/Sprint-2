@@ -1,0 +1,76 @@
+#logito {
+    margin: 50 auto;
+    display: block;
+    position: relative;
+    left: 40px;
+    bottom: 510px;
+}
+
+#caritafacherita{
+    margin: 50 auto;
+    display: block;
+    position: relative;
+    left: 200px;
+    bottom: 600px;
+}
+
+p {
+    margin-top: 60px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.formulario {
+    width: 70%;
+    height: auto;
+    padding: 30px;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5bafb6;
+    color: white;
+    text-align: center;
+}
+
+.text {
+    width: auto;
+    height: auto;
+    padding: 30px;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#5bafb6;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.res {
+    width: 70%;
+    height: auto;
+    padding: 30px;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: #5bafb6;
+    color: white;
+    text-align: center;
+}
+
+ul{
+
+list-style: none;
+
+}

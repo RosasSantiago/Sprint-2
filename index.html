@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="CalcularGASTOS/style.css">
+
+</head>
+<body>
+
+  <header class="text">
+
+    <h2>Calcular Gastos</h2>
+
+  </header>
+  <div class="res">
+    <h2>Aplicación de División de Gastos</h2>
+    <p>
+      Ingresá cuánto gastó cada persona<br>
+      para poder dividirlo en partes iguales<br>
+    </p>
+  </div>
+  <div class="formulario">
+
+    <input type="text" id="amigos" placeholder="Ingresar Nombre" required="">
+
+    <input type="number" id="montos" placeholder="Ingrese Monto" required="">
+
+    <input class="btn btn-primary" id="agregarMonto" type="submit" value="Agregar" onclick="agregarALista()"></input>
+
+    <input class="btn btn-primary" id="calcular" type="submit" value="Calcular" onclick="mostrarTot()"></input>
+
+    <ul id="listaDeGastos">
+    </ul>
+
+    <p id="total"></p>
+
+  </div>
+  <div>
+    <img src="Imagenes/san-logo.png" id="logito" width="100" alt="">
+    <img src="Imagenes/LogoITBK.png" id="caritafacherita" width="100" alt="" >
+  </div>
+
+  <script src="CalcularGASTOS/calcGasto.js"></script>
+</body>
+</html>
